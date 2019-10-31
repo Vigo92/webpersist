@@ -1,0 +1,11 @@
+create table database.employee( id int not null primary key, firstName varchar(30) not null, lastName varchar(30) not null,
+email varchar(30) not null, password varchar(30) not null)
+
+
+select * from database.client
+
+
+create table database.client( id int not null primary key, name varchar(30) not null, fees int not null)
+
+
+insert into database.client values( 1, 'Obia Vigo', 100000)
